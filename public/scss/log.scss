@@ -1,0 +1,143 @@
+.log{
+    width: 100%;
+    min-height: 80vh; 
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-bottom: 10%;
+    background-color: #FFD972;
+    .loggingIn{
+        width: 45%;
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin-bottom: 3%;
+        }
+        form{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            input{
+                margin: 2% 0;
+            }
+            #logSubmit{
+                border-radius: 25px;
+                padding: 10px;
+                width: 100%;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1%;
+                font-size: 15px;
+                background-color: lightgreen;
+            }
+        }
+    }
+    .title-create{
+        width: 45%;
+        height: auto;
+        margin-top: 5%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        h1{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            margin-bottom: 3%;
+        }
+        form{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            input{
+                margin: 2% 0;
+    
+            }
+            #createAccountSubmit{
+                border-radius: 25px;
+                padding: 10px;
+                width: 100%;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin: 1%;
+                font-size: 15px;
+                background-color: lightgreen;
+            }
+            
+        }
+    }
+}
+
+@media screen and (max-width: 960px){
+    .log{
+        width: 100%;
+        height: auto; 
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .loggingIn{
+            width: 65%;
+            height: auto;
+            margin-top: 5%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                margin-bottom: 3%;
+            }
+            form{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                input{
+                    margin: 2% 0;
+                }
+            }
+        }
+        .title-create{
+            width: 65%;
+            height: auto;
+            margin-top: 10%;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+            h1{
+                display: flex;
+                justify-content: center;
+                align-items: center; 
+                margin-bottom: 3%;
+            }
+            form{
+                width: 80%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                input{
+                    margin: 2% 0;
+                }
+            }
+        }
+    } 
+}
